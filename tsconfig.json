@@ -3,22 +3,19 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "baseUrl": "src",
-    "outDir": "out/src",
-    "target": "es2017",
+    "outDir": "out",
+    "target": "es2015",
     "strict": true,
-    "noFallthroughCasesInSwitch": true,
-    "pretty": true,
-    "stripInternal": true,
     "typeRoots": [
       "node_modules/@types",
       "typings/globals"
     ],
     "lib": [
-      "es2017",
-      "esnext"
+      "es2017"
     ]
   },
   "exclude": [
     "node_modules"
   ]
 }
+
